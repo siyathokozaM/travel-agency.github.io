@@ -1,0 +1,502 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Merriweather", serif;
+}
+
+.home {
+  background-image: url("images/home-beijing.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 150px 10px 500px 10px;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-bar img {
+  width: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px 20px 25px 35px;
+}
+
+.nav-bar p {
+  font-size: 20px;
+  font-weight: 900;
+  position: fixed;
+  left: 7%;
+}
+
+.nav-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.nav-bar span {
+  font-size: 25px;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: hsl(0, 0%, 0%, 0.5);
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.nav-bar ul li a:hover {
+  padding-bottom: 15px;
+  border-bottom: 4px solid orangered;
+  font-weight: 700;
+  color: orangered;
+}
+.logo {
+  margin-bottom: 60px;
+}
+.logo img {
+  width: 100px;
+}
+
+.logo h2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.home select {
+  font-size: 20px;
+  font-weight: 350;
+  color: gray;
+  padding: 15px 30px;
+  margin: 20px;
+  border: 2px solid rgb(70, 120, 226);
+  border-radius: 5px;
+}
+
+.home h1 {
+  font-size: 45px;
+  padding: 30px 0;
+}
+
+.home button {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  background: rgb(93, 204, 241);
+  color: white;
+  border: none;
+}
+.home button:hover {
+  cursor: pointer;
+  background: rgb(250, 87, 12);
+  transition-duration: 0.5s;
+}
+.nav-bar ul li {
+  margin: 10px 20px;
+}
+
+.nav-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cell {
+  width: 400px;
+}
+
+.fav-dest {
+  padding: 20px 0;
+  text-align: center;
+}
+.fav .cell {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 10px 0 5px;
+  transition: 1s all ease-in-out;
+}
+.fav .cell img:hover {
+  cursor: pointer;
+  padding: 2px;
+}
+.fav-dest h1 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #272424;
+  padding: 30px 0;
+}
+img {
+  width: 300px;
+}
+
+.fav p {
+  color: #2e2d2d;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.fav-dest button {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  background: #39c1ee;
+  color: white;
+  border: none;
+}
+.fav-dest button:hover {
+  cursor: pointer;
+  background: rgb(250, 87, 12);
+  transition-duration: 0.5s;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  background: #cfcdcd;
+  color: #272626;
+  padding: 30px;
+  margin: 20px;
+}
+
+.about .cell {
+  font-size: 22px;
+  line-height: 35px;
+  padding: 20px 0;
+  margin: 10px;
+  width: 300px;
+}
+.about h1 {
+  font-size: 30px;
+  font-family: tahoma;
+  color: black;
+}
+
+.about p {
+  padding: 30px 10px;
+}
+.destinations {
+  margin-left: 5px;
+}
+.destinations p {
+  padding: 10px 0;
+}
+table {
+  margin: 30px 0;
+}
+tr:hover {
+  cursor: pointer;
+  background: #39c1ee;
+}
+td {
+  padding: 0 40px;
+}
+.about img {
+  width: 50px;
+}
+.partners h1 {
+  padding: 20px;
+}
+.partners .cell {
+  padding: 15px;
+  width: 110px;
+  background: #a7a3a3;
+}
+.about button {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  background: rgb(18, 188, 245);
+  color: white;
+  border: none;
+}
+.about button:hover {
+  cursor: pointer;
+  background: rgb(250, 87, 12);
+  transition-duration: 0.5s;
+}
+
+.advantages h1 {
+  padding: 25px 0 5px;
+  text-align: center;
+  color: #040213;
+}
+
+#p {
+  padding: 20px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 200;
+  color: rgb(83, 83, 83);
+  width: 600px;
+  margin: 10px auto;
+}
+.adva {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+.adva .cell {
+  text-align: center;
+  background: #ace2de;
+  width: 250px;
+  border-radius: 10px;
+  padding: 15px;
+}
+.adva p {
+  padding: 25px 0 10px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(43, 42, 42);
+}
+.adva img {
+  width: 100px;
+}
+
+.book {
+  background-image: url(images/book.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.book p {
+  color: #fff;
+  background: hsla(0, 0%, 19%, 0.5);
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.book button {
+  padding: 15px 40px;
+  font-weight: 700;
+  font-size: 30px;
+  background: #39c1ee;
+  color: white;
+  border: none;
+  transition: all ease-in-out;
+}
+.book button:hover {
+  cursor: pointer;
+  background: #fa570c;
+}
+
+.testimonials {
+  background: rgb(235, 232, 232);
+  padding: 40px;
+  text-align: center;
+}
+.testimonials h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.test .cell h3 {
+  padding: 20px 0 25px;
+  text-align: center;
+  color: #040213;
+}
+.test .cell {
+  background: #39c1ee;
+  color: white;
+  padding: 30px;
+  width: 300px;
+  font-size: 23px;
+  line-height: 35px;
+  margin: 15px 15px 35px;
+  transition: all 0.3s ease-in-out;
+}
+
+.test .cell:hover {
+  background: #fa570c;
+}
+
+.testimonials button {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 20px;
+  background: #39c1ee;
+  color: white;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.testimonials button:hover {
+  cursor: pointer;
+  background: #fa570c;
+}
+.contact {
+  background: #2c2b2b;
+  background-image: url(images/cont.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  background-position: center center;
+  background-attachment: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-blend-mode: overlay;
+  color: #fff;
+  padding: 50px 0;
+}
+.fa {
+  margin: 5px 10px;
+  color: #39c1ee;
+  transition: all 0.3s ease-in-out;
+}
+#sns {
+  font-size: 25px;
+}
+.fa:hover {
+  cursor: pointer;
+  color: #fa570c;
+}
+.details {
+  background-color: hsl(0, 0%, 24%, 0.95);
+  padding: 20px;
+  margin-top: 10px;
+}
+.contact .cell {
+  text-align: left;
+}
+.contact h3 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px;
+}
+.contact p {
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.contact h4 {
+  padding: 20px;
+  margin-top: 10px;
+  color: rgb(179, 176, 176);
+  width: fit-content;
+}
+.form {
+  font-family: helvetica;
+  background: hsl(0, 0%, 5%, 0.95);
+  padding: 20px;
+  margin-top: 10px;
+  border: 10px solid #3d3d3d;
+}
+.form label {
+  color: #6b6969;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 40px 0;
+}
+.contact input {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: none;
+  background: inherit;
+  border-bottom: 2px solid gray;
+  width: 280px;
+}
+.form textarea {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+  border: none;
+  background: inherit;
+  border-bottom: 2px solid gray;
+
+  resize: none;
+}
+
+.newsletter {
+  color: #fdfdfd;
+  background: hsl(0, 0%, 24%, 0.95);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.newsletter p {
+  padding: 10px;
+
+  font-weight: 350;
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+.newsletter input {
+  padding: 10px 5px;
+  border: 4px solid #ffffff;
+}
+
+#submitButton {
+  width: fit-content;
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  color: #070707;
+  font-weight: 800;
+}
+#submit {
+  width: fit-content;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  color: #070707;
+  font-weight: 800;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+  background: #39c1ee;
+  color: #ffffff;
+}
+#submit:hover {
+  cursor: pointer;
+  background: #39c1ee;
+  color: #ffffff;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: hsl(252, 33%, 6%);
+  color: #d3cdcd;
+  font-size: 20px;
+  font-weight: 600;
+}
